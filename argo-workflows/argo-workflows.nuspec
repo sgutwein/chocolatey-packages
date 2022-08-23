@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>argo-workflows</id>
+    <version>3.3.9</version>
+    <packageSourceUrl>https://github.com/sgutwein/chocolatey-packages</packageSourceUrl>
+    <owners>sgutwein</owners>
+    <title>argo-workflows (CLI)</title>
+    <authors>Argo Project</authors>
+    <projectUrl>https://argoproj.github.io/argo-workflows/</projectUrl>
+    <iconUrl>http://rawcdn.githack.com/sgutwein/chocolatey-packages/main/argo-workflows/argo-workflows.png</iconUrl>
+    <copyright>Copyright (c) 2022 Argo Project</copyright>
+    <licenseUrl>https://github.com/argoproj/argo-workflows/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/argoproj/argo-workflows</projectSourceUrl>
+    <docsUrl>https://github.com/argoproj/argo-workflows/tree/master/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/argoproj/argo-workflows/issues</bugTrackerUrl>
+    <tags>argo-workflows-cli argo-workflows</tags>
+    <summary>CLI for argo-workflows</summary>
+    <description>Installs the cli of argo-workflows.</description>
+    <releaseNotes>https://github.com/argoproj/argo-workflows/releases/tag/v3.3.9</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
