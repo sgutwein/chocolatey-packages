@@ -1,14 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://github.com/argoproj/argo-workflows/releases/download/v3.3.9/argo-windows-amd64.exe.gz'
+$url64      = 'https://github.com/argoproj/argo-workflows/releases/download/v3.4.0/argo-windows-amd64.exe.gz'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'EXE'
   url64bit      = $url64
   softwareName  = 'argo-workflows'
-  checksumType  = 'sha256'
-  checksum64    = 'ea21e993e6df60f9494b793a733505c3d0141bff2f957729ca1f75a610fbeded'
+  checksum64    = 'dcdcd8c619db0a46c80c3c5f83760d9e76141ba0e7926be3d30bb5df7131a981'
   checksumType64= 'sha256'
   silentArgs   = ''
   validExitCodes= @(0)
