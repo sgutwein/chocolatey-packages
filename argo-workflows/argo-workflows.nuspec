@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>argo-workflows</id>
-    <version>3.4.0</version>
+    <version>3.4.1</version>
     <packageSourceUrl>https://github.com/sgutwein/chocolatey-packages</packageSourceUrl>
     <owners>sgutwein</owners>
     <title>argo-workflows (CLI)</title>
@@ -19,7 +19,7 @@
     <tags>argo-workflows-cli argo-workflows</tags>
     <summary>CLI for argo-workflows</summary>
     <description>Installs the cli of argo-workflows.</description>
-    <releaseNotes>https://github.com/argoproj/argo-workflows/releases/tag/v3.4.0</releaseNotes>
+    <releaseNotes>https://github.com/argoproj/argo-workflows/releases/tag/v3.4.1</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
